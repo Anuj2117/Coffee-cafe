@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.headsection{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 19em;
+    position:relative;
+    box-shadow: 0px 0px 8px black;
+}
+#searchbar{
+    position:sticky;
+    top:0;
+}
+#searchbar input{
+
+    width: 80%;
+    height: 60px;
+    background-color:rgb(99, 18, 18,1);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:58px;
+    margin-left: 11%;
+    border:none;
+}
+input::placeholder{
+    color: white;
+}
+.imgsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+}
+.gallery div{
+    height: 150px;
+    width: 150px;
+}
+.gallery h4{
+    margin:15px;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+    transition: transform 0.3s ease;
+}
+.about{
+    width: 90%;
+    margin:auto;
+    padding:30px;
+    border-radius: 8px;
+    background-color:rgb(165, 42, 42, 0.3) ;
+    box-shadow: 0px 0px 8px brown;
+}
+.about p , .about h2{
+    color: brown;
+
+}
+.coffeelist{
+    width:90%;
+    background-color: rgb(165, 42, 42, 0.3);
+    margin:auto;
+    padding:30px;
+    border-radius: 8px;
+    margin-block:50px;
+    box-shadow: 0px 0px 8px brown;
+
+}
+.coffeelist h2{
+color: brown;
+}
+.coffeelist ol li{
+    line-height: 30px;
+    color: brown;
+}
+.coffeelist p{
+    color: brown;
+
+}
+body{
+    background-color: rgb(165, 42, 42, 0.2);;
+}
+img:hover{
+    transform: scale(1.1); 
+}
